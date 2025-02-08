@@ -1,0 +1,12 @@
+package ru.java.oop;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Car car = new Car();
+        car.setName("car");
+        car.drive();
+        car.stop();
+    }
+}
