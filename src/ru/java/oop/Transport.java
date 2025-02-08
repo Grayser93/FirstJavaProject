@@ -2,6 +2,15 @@ package ru.java.oop;
 
 public class Transport {
 
+    public Transport() {
+    }
+
+    public Transport(String name, String model, String color) {
+        this.name = name;
+        this.model = model;
+        this.color = color;
+    }
+
     private String name;
     private String model;
     private String color;
