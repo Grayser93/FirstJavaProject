@@ -19,6 +19,8 @@ public class Car extends Transport {
 
     @Override
     public void drive() {
+        super.drive();
+        super.stop();
 
         System.out.println("car drive");
     }

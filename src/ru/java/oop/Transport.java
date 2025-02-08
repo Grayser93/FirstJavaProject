@@ -32,11 +32,11 @@ public class Transport {
 
 
     public void drive() {
-        System.out.println(name + " drive transport");
+        System.out.println("drive transport");
     }
 
     public void stop() {
-        System.out.println(name + " stop transport");
+        System.out.println("stop transport");
     }
 
 

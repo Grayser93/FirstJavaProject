@@ -7,6 +7,6 @@ public class Main {
         Car car = new Car();
         car.setName("car");
         car.drive();
-        car.stop();
+
     }
 }
