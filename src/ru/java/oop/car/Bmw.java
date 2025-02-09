@@ -1,4 +1,4 @@
-package ru.java.oop;
+package ru.java.oop.car;
 
 public class Bmw extends Car {
 

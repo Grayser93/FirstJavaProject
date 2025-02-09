@@ -1,4 +1,6 @@
-package ru.java.oop;
+package ru.java.oop.car;
+
+import ru.java.oop.Transport;
 
 public class Car extends Transport {
 
