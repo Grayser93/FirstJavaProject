@@ -16,6 +16,7 @@ public class Car extends Transport {
     }
 
     public Car() {
+        System.out.println("car");
     }
 
     private int number;
