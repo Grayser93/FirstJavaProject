@@ -33,6 +33,8 @@ public class Main {
         Car car = new Car(10, engine);
 //        car.setEngine(engine);
 
-        System.out.println("car.getEngin() = " + car.getEngine());
+//        System.out.println("car.getEngin() = " + car.getEngine());
+        System.out.println("car.getEngine().getVolume() = " + car.getEngine().getVolume());
+
     }
 }
