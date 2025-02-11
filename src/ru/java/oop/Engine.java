@@ -3,7 +3,6 @@ package ru.java.oop;
 public class Engine {
 
     public Engine() {
-
     }
 
     public Engine(double volume) {

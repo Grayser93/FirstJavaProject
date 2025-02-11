@@ -1,4 +1,4 @@
-package ru.java.oop.morobike;
+package ru.java.oop.motorbike;
 
 public class Kawasaki extends Motorbike {
 

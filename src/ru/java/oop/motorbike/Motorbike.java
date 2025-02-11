@@ -1,4 +1,4 @@
-package ru.java.oop.morobike;
+package ru.java.oop.motorbike;
 
 import ru.java.oop.Transport;
 
@@ -18,6 +18,7 @@ public class Motorbike extends Transport {
     }
 
     private double volume;
+    public final int wheelCount = 2;
 
     public double getVolume() {
         return volume;

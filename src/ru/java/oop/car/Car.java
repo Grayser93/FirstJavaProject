@@ -5,6 +5,8 @@ import ru.java.oop.Transport;
 
 public class Car extends Transport {
 
+
+
     public Car(String name, String model, String color) {
         super(name, model, color);
     }
@@ -19,12 +21,16 @@ public class Car extends Transport {
         this.engine = engine;
     }
 
-    public Car() {
+    public Car(Engine engine) {
+        this.engine =engine;
+    }
 
+    public Car() {
     }
 
     private int number;
     private Engine engine;
+    public final int wheelCount = 4;
 
     public Engine getEngine() {
         return engine;
@@ -49,10 +55,10 @@ public class Car extends Transport {
 
     @Override
     public void drive() {
-        super.drive();
-        super.stop();
+//        super.drive();
+//        super.stop();
 
-        System.out.println("car drive");
+        System.out.println("drive car with wheelCount = " + wheelCount);
     }
 
     @Override
