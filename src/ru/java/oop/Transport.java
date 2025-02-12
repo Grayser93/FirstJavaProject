@@ -3,7 +3,7 @@ package ru.java.oop;
 public class Transport {
 
     public Transport() {
-//        System.out.println("transport");
+
     }
 
     public Transport(String name, String model, String color) {
