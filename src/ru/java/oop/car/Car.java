@@ -5,8 +5,6 @@ import ru.java.oop.Transport;
 
 public class Car extends Transport {
 
-
-
     public Car(String name, String model, String color) {
         super(name, model, color);
     }
@@ -22,7 +20,7 @@ public class Car extends Transport {
     }
 
     public Car(Engine engine) {
-        this.engine =engine;
+        this.engine =  engine;
     }
 
     public Car() {
