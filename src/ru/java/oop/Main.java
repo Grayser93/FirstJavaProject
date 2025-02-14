@@ -9,12 +9,14 @@ import ru.java.oop.motorbike.Ural;
 public class Main {
 
     public static void main(String[] args) {
-        Toyota toyota = new Toyota();
-        toyota.year = 2000;
-        System.out.println("toyota.year = " + toyota.year);
+//        Toyota toyota = new Toyota();
+//        System.out.println(toyota.formatText("asdasdas"));
+//
+//        Car car = new Car();
+//        System.out.println(car.formatText("ddffdfd"));
 
-        Bmw bmw = new Bmw();
-        System.out.println("bmw.year = " + bmw.year);
+          System.out.println(Car.formatText("asdasdas"));
 
-    }
+
+}
 }
