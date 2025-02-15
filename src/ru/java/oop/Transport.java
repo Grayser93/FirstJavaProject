@@ -15,7 +15,7 @@ public class Transport {
     private String name;
     private String model;
     private String color;
-    public static int year;
+    public final static int year = 2000;
 
     public String getName() {
         return name;

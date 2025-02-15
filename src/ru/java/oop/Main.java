@@ -9,13 +9,13 @@ import ru.java.oop.motorbike.Ural;
 public class Main {
 
     public static void main(String[] args) {
-//        Toyota toyota = new Toyota();
-//        System.out.println(toyota.formatText("asdasdas"));
-//
-//        Car car = new Car();
-//        System.out.println(car.formatText("ddffdfd"));
+        Toyota toyota = new Toyota();
+        System.out.println(toyota.year);
 
-          System.out.println(Car.formatText("asdasdas"));
+        Car car = new Car();
+        System.out.println(car.year);
+
+//          System.out.println(Car.formatText("asdasdas"));
 
 
 }
